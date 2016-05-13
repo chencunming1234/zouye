@@ -42,8 +42,7 @@ window.onload=function () {
 			aImg[th].src=aImg[th].getAttribute('dy-src')
 			ava[th].innerHTML=ava[th].index
 			aImg[th].timer=setTimeout(function () {
-				alert(1)
-				aImg[th].src=that;
+				aImg[th].src=aImg[th].getAttribute('re-src')
 			},1500)
 			
 		}
