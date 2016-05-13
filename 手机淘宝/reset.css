@@ -1,0 +1,10 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,li{
+	padding: 0;margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #434343;
+}

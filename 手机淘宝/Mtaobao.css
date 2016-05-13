@@ -1,0 +1,143 @@
+#tao-wrap{
+	width: 10.0rem;background: #ffffd5;margin: 0 auto;
+}
+.header-img{
+	width: 10.0rem;height: 1.733333rem;background: url(images/header_01.png);background-size: 100%;
+}
+
+.header-me{
+	height: 0.462222rem;padding-top: 0.951111rem;padding-left: 0.444444rem;line-height: 0.462222rem
+}
+.header-me img{
+	width: 0.266667rem;height: 0.462222rem;vertical-align: middle;
+}
+.header-me h1{
+	font-size: 0.462222rem;display: inline-block;vertical-align: middle;margin-left: 3.022222rem
+}
+.yijing{
+	width: 100%;box-sizing: border-box;padding: 0 0.622222rem;
+}
+.yijing::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	zoom: 1;
+}
+.yijing-head{
+	box-sizing: border-box;height: 1.173333rem;padding-top: 0.444444rem
+}
+.yijing-head p{
+	font-size: 0.391111rem;font-weight: 500;color: #ff0000;
+}
+.hongbao > li{
+	width: 4.248889rem;height: 1.724444rem;float: left;background: #fa3530;margin: 0 0.231111rem 0.231111rem 0;
+	border-radius: 8px;box-sizing: border-box;position: relative;padding-top: 0.266667rem;color: white;
+}
+.hongbao > li:nth-child(2n){
+	margin-right: 0;
+}
+.hongbao > li:last-child{
+	border: 2px dashed #f9a09e;background:white;color: #f9a09e;font-size: 0.426667rem;text-align: center;line-height: 1.191111rem;
+}
+.hongbao > li > img{
+	width: 0.995556rem;height: 1.191111rem;position: absolute;left: 0.231111rem;
+}
+.hongbao > li .caipiao{
+	width: 1.235556rem;height: 1.235556rem;left: 0.311111rem
+}
+.hongbao > li >p{
+	margin-left:2.133333rem;line-height:1.191111rem;font-size: 0.444444rem
+}
+.hongbaonei{
+	margin-left: 1.6rem;
+}
+.hongbaonei p:first-of-type{
+	font-size: 0.355556rem
+}
+.hongbaonei img{
+	width: 0.355556rem;height: 0.311111rem;margin-top: 0.213333rem;
+}
+.hongbaonei span{
+	font-size: 0.604444rem;margin-top: 0.213333rem;display: inline-block;font-weight: bolder;
+}
+.hongbaonei .hongbaoliu{
+	font-size: 0.311111rem
+}
+.chou{
+	width: 100%;height: 4.284444rem;background: #f51829;box-sizing: border-box;
+	padding-top: 0.293333rem;position: relative;
+	/*overflow: hidden;*/
+}
+.chou::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	zoom: 1;
+}
+.chou > p{
+	font-size: 0.408889rem;color: white;letter-spacing: 2px;text-indent: 0.711111rem;vertical-align: middle;
+}
+.chou > p span{
+	font-size: 0.551111rem;color: #fff000;vertical-align: middle;
+}
+#next{
+	width: 0.702222rem;height: 0.817778rem;position: absolute;right: 0;top: 1.777778rem;cursor: pointer;
+}
+
+.chou-wrap {
+	position: relative;left: 0.444444rem;top:0.444444rem;width: 8.3rem;height: 2.008889rem;overflow: hidden;
+}
+.chou-wrap ul{
+	position: absolute;left: 0;
+}
+.chou-wrap li img{
+	width: 2.488889rem;height: 2.008889rem;position: relative;
+}
+
+.chou-wrap li{
+	float: left;padding-right: 0.266667rem;position: relative;
+}
+.chou-nav{
+	position: absolute;bottom: 0.177778rem;left: 50%;width: 1.777778rem;margin-left: -0.888889rem;text-align: center;
+}
+.chou-nav span{
+	width: 0.213333rem;height: 0.213333rem;background: #cdcbcb;display: inline-block;margin: 0 0.088889rem;
+	border-radius: 50%;cursor: pointer;
+}
+.haiyou{
+	width: 0.577778rem;height: 0.577778rem;position: absolute;top: 0;right:0.177778rem;background: white;text-align: center;line-height: 0.577778rem;
+	border-radius: 50%;color: red;	
+}
+.haiyous{
+	font-size: 0.284444rem;display: inline-block;
+}
+
+
+
+
+/*尾部*/
+.require{
+	width: 100%;padding-left: 0.693333rem;
+}
+.require-head{
+	height: 1.395556rem;background: url(images/taobao_12.png) left center no-repeat;background-size: 5.502222rem 1.12rem;
+	margin-left: -0.177778rem;line-height:1.466667rem;color: white;font-size: 0.551111rem;text-indent:1.688889rem
+}
+.zhifu,.fenxiang,.weixin{
+	width: 8.604444rem;height: 1.253333rem;margin-top: 0.213333rem;line-height: 1.253333rem;padding-left: 1.777778rem;
+	font-size: 0.408889rem;color: white;position: relative;box-sizing: border-box;
+}
+.zhifu{
+	background:url(images/zhifu_17.jpg) no-repeat;background-size: 8.604444rem 1.253333rem;
+}
+.fenxiang{
+	background:url(images/zhifu_21.jpg) no-repeat;background-size: 8.604444rem 1.253333rem;
+}
+.weixin{
+	background:url(images/zhifu_25.png) no-repeat;background-size: 8.604444rem 1.253333rem;
+}
+.zhifu img,.fenxiang img,.weixin img{
+	width: 1.342222rem;height: 1.048889rem;position: absolute;right: 0.266667rem;top: 0.142222rem;
+}
