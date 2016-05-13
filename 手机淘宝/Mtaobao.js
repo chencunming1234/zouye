@@ -37,12 +37,13 @@ window.onload=function () {
 		aLi[i].onclick=function(){
 			var th=this.index;
 			clearTimeout(aImg[th].timer)
-			ava[th].index-=1;
 			var that=aImg[th].getAttribute('src')
 			aImg[th].src=aImg[th].getAttribute('dy-src')
-			ava[th].innerHTML=ava[th].index
 			aImg[th].timer=setTimeout(function () {
+				ava[th].index-=1;
+				ava[th].innerHTML=ava[th].index
 				aImg[th].src=aImg[th].getAttribute('re-src')
+				alert(你中奖)
 			},1500)
 			
 		}
