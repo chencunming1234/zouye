@@ -6,7 +6,7 @@ window.onload=function () {
 	var next=document.getElementById('next');
 	var chouNav=document.getElementsByClassName('chou-nav')[0];
 	var aSpan=chouNav.getElementsByTagName('span')
-	oUl.style.width=aLi[0].offsetWidth*aLi.length+'px';
+	oUl.style.width=(aLi[0].offsetWidth+1)*aLi.length+'px';
 	var ava=oUl.getElementsByClassName('haiyous');
 	var num=0;
 	for (var i = 0; i < aSpan.length; i++) {
@@ -25,6 +25,10 @@ window.onload=function () {
 		if (num>1) {
 			num=0;
 		}
+		for (var i = 0; i < aSpan.length; i++) {
+				aSpan[i].style.background='';
+			}
+		aSpan[num].style.background='#534c4c';
 		oUl.style.left=-aLi[0].offsetWidth*3*num+'px';
 	}
 	for (var i = 0; i < ava.length; i++) {
@@ -33,7 +37,6 @@ window.onload=function () {
 	}
 	for(var i=0;i<aLi.length;i++){
 		aLi[i].index=i
-
 		aLi[i].onclick=function(){
 			var th=this.index;
 			clearTimeout(aImg[th].timer)
@@ -43,7 +46,7 @@ window.onload=function () {
 				ava[th].index-=1;
 				ava[th].innerHTML=ava[th].index
 				aImg[th].src=aImg[th].getAttribute('re-src')
-				alert(你中奖)
+				alert("你中奖了")
 			},1500)
 			
 		}

@@ -1,5 +1,5 @@
 #tao-wrap{
-	width: 10.0rem;background: #ffffd5;margin: 0 auto;
+	width: 10.0rem;background: #ffffd5;margin: 0 auto;overflow: hidden;
 }
 .header-img{
 	width: 10.0rem;height: 1.733333rem;background: url(images/header_01.png);background-size: 100%;
@@ -87,17 +87,17 @@
 }
 
 .chou-wrap {
-	position: relative;left: 0.444444rem;top:0.444444rem;width: 8.3rem;height: 2.008889rem;overflow: hidden;
+	position: relative;left:0;top:0.2rem;width: 9.0rem;height: 2.844444rem;overflow: hidden;
 }
 .chou-wrap ul{
 	position: absolute;left: 0;
 }
 .chou-wrap li img{
-	width: 2.488889rem;height: 2.008889rem;position: relative;
+	width: 3.022222rem;height: 2.84444rem;position: relative;
 }
 
 .chou-wrap li{
-	float: left;padding-right: 0.266667rem;position: relative;
+	float: left;position: relative;
 }
 .chou-nav{
 	position: absolute;bottom: 0.177778rem;left: 50%;width: 1.777778rem;margin-left: -0.888889rem;text-align: center;
