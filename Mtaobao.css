@@ -90,7 +90,7 @@
 	position: relative;left:0;top:0.2rem;width: 9.0rem;height: 2.844444rem;overflow: hidden;
 }
 .chou-wrap ul{
-	position: absolute;left: 0;
+	position: absolute;left: 0;transition: all .3s;
 }
 .chou-wrap li img{
 	width: 3.022222rem;height: 2.84444rem;position: relative;
